@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task List</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<div class="container">
+    
+    
+   
+    
+     
+      
+      <div id="task-list">
+        <div class="task-header">
+          <h2>Tarefas</h2>
+        </div>
+        <div class="task-input">
+          <input class="input" type="text" id="input-task-title" placeholder=" Título">
+          <input class="input" type="text" id="input-task-name" placeholder=" Tarefa">
+          <input class="input" type="date" id="task-date">
+          <input class="input" type="time" id="task-time">
+          <button class="input" id="save-task">Adicionar</button>
+        </div>
+        <div class="task-display">
+          <ul id="task-list-display">
+          </ul>
+        </div>
+      </div>
+
+
+
+
+
+      <div class="calendar">
+        <div class="header">
+          <button class="btn" id="backBtn">&larr;</button>
+          <div class="monthYearDisplay"></div>
+          <button class="btn" id="nextBtn">&rarr;</button>
+        </div>
+        <table id="calendarBody">
+          <thead>
+            <tr>
+              <th>Dom</th>
+              <th>Seg</th>
+              <th>Ter</th>
+              <th>Qua</th>
+              <th>Qui</th>
+              <th>Sex</th>
+              <th>Sab</th>
+            </tr>
+          </thead>
+          <tbody id="calendarDates"></tbody>
+        </table>
+        <div id="clockDisplay"></div>
+      </div>
+
+
+</div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

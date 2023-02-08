@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: context-menu;
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+}
+
+body {
+    background: url(img/bd-main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 100px ;
+    justify-content: center;
+}
+
+.calendar {
+    width: 500px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0px 4px 10px -3px rgb(0 0 0 / 90%);
+    backdrop-filter: blur(2px) saturate(170%);
+    -webkit-backdrop-filter: blur(2px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.85);
+    border-radius: 8px;
+    border: 1px solid #37dada4f;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #1b1b1b9f;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+  
+  .monthYearDisplay {
+    font-size: 22px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    text-align: center;
+    
+  }
+  
+  #calendarBody {
+    width: 100%;
+}
+  
+  th,
+  td {
+    border: none;
+    text-align: center;
+    padding: 17px;
+    font-size: 18px;
+    border-radius: 4% 4% 4% 100% ;
+  }
+
+  td:hover {
+    background-color: #0a595c50;
+  }
+  
+  #clockDisplay {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+    padding: 10px 40px;
+  }
+  
+  .btn {
+    padding: 5px 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: #0a595c;
+    color: white;
+    border: none;
+    cursor: context-menu;
+    transition: all 0.5s
+  }
+  
+  .btn:active {
+    transform: scale(0.8);
+  }
+ 
+  
+
+
+
+#task-list {
+    max-width: 900px;
+    width: 100%;
+    height: 600px;
+    box-shadow: 0px 4px 10px -3px rgb(0 0 0 / 90%);
+    backdrop-filter: blur(2px) saturate(170%);
+    -webkit-backdrop-filter: blur(2px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.85);
+    border-radius: 8px;
+    border: 1px solid #37dada4f;
+}
+
+.task-header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #1b1b1b9f;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+
+.task-input {
+    padding: 20px;
+}
+
+
+.input {
+    color: #fff;
+    background-color: #0a444600;
+    padding: 2px 20px;
+}
+
+ul {
+    margin: 20px;
+}
+
+li {
+    color: #fff;
+    padding: 5px 10px;
+    background-color: #cec69be3;
+}
+
+#input-task-title {
+  width: 130px;
+}
+
+#input-task-name {
+  width: 200px;
+}
+
+.task-title {
+  display: flex;
+  font-weight: 600;
+  color: #000000;
+}
+
+.task-date {
+color: #000000;
+}
+
+.task-time {
+  color:#000000;
+  font-weight: 600;
+}
+.task-text {
+  font-weight: 500;
+  display: flex;
+  color: rgba(0, 0, 0, 0.712);
+}
+
+
+#save-task {
+    border-radius: 6px;
+    background-color: #0a595c;
+    transition: all 0.5s
+}
+
+
+#save-task:active{
+  transform: scale(0.8);
+}
+
+ 
